@@ -38,6 +38,6 @@ DB Konfiguration
 Author Query
 
     author: "select content from Data join Meta on Data.digest = Meta.fk_digest where Meta.path = '/opt/frigg/admin/projekt.txt';"
-Um nun auch eine funktionierende Aplikation zu erhalten, müssen noch die Queries im Rest des Config files anpassen. Diese werde ich hier jedoch nicht auflisten und können hier nachgeschaut werden:  [gna.conf.yml](src\gna.conf.yml)
+Um nun auch eine funktionierende Aplikation zu erhalten, müssen noch die Queries im Rest des Config files anpassen. Diese werde ich hier jedoch nicht auflisten und können hier nachgeschaut werden:  [gna.conf.yml](https://github.com/simkel/test/blob/main/src/gna.conf.yml)
 
 ### **5.2 Firewall Rules**
